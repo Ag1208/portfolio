@@ -1,0 +1,1451 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* configuraciones generales */
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+img{
+	max-width: 100%;
+}
+
+body{
+	width: 100%;
+	background-color: #D5BBEE;
+}
+
+/* página principal */
+
+/* menu hamburguesa */
+
+main{
+	padding-bottom: 5%;
+	padding-top: 20%;
+}
+
+#mobile{
+	padding: 0%;
+	position: absolute;
+	right: 10px;
+	top: 58px;
+	background: #D5BBEE;
+	width: 24%;
+	font-size: 1em;
+	font-family: "Montserrat Alternates";
+	text-align: end;
+}
+
+#mobile ul li a{
+	font-size: 0.75em;
+	color: #FCFF73;
+}
+
+/* menu pc */
+
+#pc{
+	display: none;
+}
+
+.infoprincipalpc{
+	display: none;
+}
+
+.botonmaspc{
+	display: none;
+}
+
+/* comienza header */
+
+header nav ul{
+	background-color: #D5BBE;
+	margin: auto;
+}
+
+header nav ul li {
+	list-style-type: flex;
+	width: 100%;
+	padding: 5%;
+	font-size: 1.5em;
+	display: none;
+}
+
+header nav ul li a {
+	text-decoration: flex;
+	color: white;
+	display: block;
+	text-align: end;
+}
+
+header{
+	background-color: #FFFFFF;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content:space-between;
+	align-items: center;
+	position: fixed;
+	width: 100%;
+}
+
+header img{
+	padding: 5%;
+}
+
+header a img{
+	margin: 30%;
+}
+
+header nav ul li{
+	background-color: #ac79de;
+	list-style: none;
+}
+
+header nav ul li a{
+	color: white;
+	text-decoration: none;
+}
+
+/* h's */
+
+h1{
+	color: #762FBC;
+	font-size: 2.5em;
+	font-family: "Montserrat Alternates";
+	text-align: center;
+	margin-bottom: 1%;
+}
+
+h2{
+	color: #FCFF73;
+	font-size: 1.5em;
+	font-family: "Montserrat Alternates";
+	text-align: left;
+	padding-top: 5%;
+	padding-left: 11%;
+	padding-right: 12%;
+	padding-bottom: 1;
+}
+
+h3{
+	color: #762FBC;
+	font-size: 1em;
+	font-family: "Montserrat Alternates";
+	text-align: left;
+	padding-top: 5%;
+	padding-left: 5%;
+	padding-bottom: 5%;
+}
+
+h4{
+	color: #762FBC;
+	font-family: "Montserrat Alternates";
+	text-align: center;
+	font-size: 1em;
+	font-weight: 500;
+	margin-bottom: 5%;
+}
+
+/* p´s */
+
+p{
+	color: #762FBC;
+	font-family: "Montserrat Alternates";
+	font-size: 1em;
+	padding-left: 11%;
+	padding-top: 4%;
+	padding-right: 11%;
+}
+
+.fotoperfilmobile{
+	display: flex;
+	justify-content: center;
+	padding-bottom: 5%;
+}
+
+.massobremi{
+	display: flex;
+    justify-content: center;
+	font-family: "Montserrat Alternates";
+	background-color: #762FBC;
+	border-radius: 20%;
+	align-items: flex-end;
+	color: #FCFF73;
+}
+
+.avances{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.avances form div img{
+	width: 90%;
+	padding-left: 8%;
+}
+
+
+.avances div h3{
+	padding-left: 0; 
+}
+
+.formulario{
+	display: flex;
+	justify-content: center;
+	padding-top: 5%;
+	color: #762FBC;
+	font-family: "Montserrat Alternates";
+}
+
+.formularioitems{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	background: #FCFF73;
+	padding: 5%;
+}
+
+.formularioitemsinput{
+	width: 100%;
+	margin-bottom: 5%;
+}
+
+
+.formulariobutton{
+	background-color: #762FBC;
+	border-radius: 20%;
+	display: flex;
+	align-items: flex-end;
+	color: #FCFF73;
+	margin-top: 5%;
+}
+
+.textoconfirmacion{
+	color: #762FBC;
+	font-size: 1em;
+	font-family: "Montserrat Alternates";
+	text-align: left;
+	padding: 5%;
+}
+
+.btnconfirmacion{
+	background: #762FBC;
+    border-radius: 30%;
+    padding: 1%;
+    color: #FCFF73;
+	font-family: "Montserrat Alternates";
+	margin-left: 5%;
+}
+
+/* botones ver mas */
+
+.cajaboton{
+	display: flex;
+    justify-content: center;
+}
+
+.btnavance{
+	background: #762FBC;
+    border-radius: 30%;
+    color: #FCFF73;
+	font-family: "Montserrat Alternates";
+	font-size: 0.5em;
+	padding: 1%;
+}
+
+/* pagina grafico */
+
+.posterdg{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.tituloposterdg{
+	padding-left: 11%;
+}
+
+.logodg{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.titulologodg{
+	padding-left: 11%;
+}
+
+.postalesdg{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.postalesarriba {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.postalesarriba img {
+	margin-bottom: 5%;
+}
+
+.postalesabajo {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.postalesabajo img {
+	margin-bottom: 5%;
+}
+
+.titulopostalesdg{
+	padding-left: 11%;
+}
+
+.vinilosdg{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.vinilosarriba {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.vinilosarriba img {
+	margin-bottom: 5%;
+}
+
+.titulovinilosdg{
+	padding-left: 11%;
+}
+
+/* pagina editorial */
+
+.posters{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.postersarriba{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.postersarriba img{
+	margin-bottom: 5%;
+}
+
+.postersabajo{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.postersabajo img{
+	margin-bottom: 5%;
+}
+
+.titulopostersde{
+	padding-left: 11%;
+}
+
+.afiche{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.tituloafichede{
+	padding-left: 11%;
+}
+
+.publicacion{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.publicacion1{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.publicacion1 img{
+	margin-bottom: 5%;
+}
+
+.titulopublicacionde{
+	padding-left: 11%;
+}
+
+/* interactivo */
+
+.app{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.apparriba{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.apparriba img{
+	margin-bottom: 5%;
+}
+
+.tituloappinteraccion{
+	padding-left: 11%;
+}
+
+/* formulario */
+
+.formulario{
+	display: flex;
+	justify-content: center;
+	padding-top: 5%;
+	color: #762FBC;
+	font-family: "Montserrat Alternates";
+}
+
+.formularioitems{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	background: #FCFF73;
+	padding: 5%;
+}
+
+.formularioitemsinput{
+	width: 100%;
+	margin-bottom: 5%;
+}
+
+
+.formulariobutton{
+	background-color: #762FBC;
+	border-radius: 20%;
+	display: flex;
+	align-items: flex-end;
+	color: #FCFF73;
+	margin-top: 5%;
+}
+
+.textoconfirmacion{
+	color: #762FBC;
+	font-size: 1em;
+	font-family: "Montserrat Alternates";
+	text-align: left;
+	padding: 5%;
+}
+
+.btnconfirmacion{
+	background: #762FBC;
+    border-radius: 30%;
+    padding: 1%;
+    color: #FCFF73;
+	font-family: "Montserrat Alternates";
+	margin-left: 5%;
+}
+
+/* contacto */
+
+.titulocontacto{
+	padding-left: 18%;
+}
+
+.iconosredes{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	list-style-type: none;
+}
+
+.misredes{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding-left: 18%;
+	padding-bottom: 3%;
+}
+
+/* footer */
+
+footer{
+	background: #762FBC;
+}
+
+footer ul{
+	display: flex;
+	list-style-type: none;
+	padding-left: 38%;
+}
+
+/* fotografia */
+
+.fotografia{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.fotos{
+	width: 50%;
+	align-items: center;
+}
+
+.fotos img{
+	padding-top: 5%;
+}
+
+.textofotografia{
+	font-size: 1em;
+}
+
+/* dibujo */
+
+.ilustraciones{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.dibujos{
+	align-items: center;
+	width: 50%;
+}
+
+.dibujos h3{
+	padding-left: 0%;
+}
+
+.dibujos img{
+	padding-top: 5%;
+}
+
+/* sobre mi */
+
+.amboshobbies{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.elementoshobbies{
+	align-items: center;
+	width: 50%;
+}
+
+.elementoshobbies h3{
+	padding-left: 0%;
+}
+
+.imagenesapps{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding-left: 9%;
+}
+
+.iconos{
+	display: flex;
+	flex-direction: row;
+}
+
+.habilidades{
+	height: 15%;
+	background-color: #FCFF73;
+	margin-top: 9%;
+	border-style: solid;
+	border-color: #FCFF73;
+}
+
+.habilidadestexto{
+	padding-left: 0%;
+}
+
+/* boton descarga */
+
+.descargaarchivo {
+	background-color: #762FBC;
+    border: #762FBC;
+    border-radius: 10%;
+    border-style: solid;
+	border-width: thin;
+    text-decoration: none;
+    padding: 1%;
+	font-family: "Montserrat Alternates";
+	color: #FCFF73;
+	display: flex;
+	width: 30%;
+	align-items: center;
+}
+
+.descargaarchivo2 {
+	background-color: #762FBC;
+    border: #762FBC;
+    border-radius: 10%;
+    border-style: solid;
+	border-width: thin;
+    text-decoration: none;
+    padding: 1%;
+	font-family: "Montserrat Alternates";
+	color: #FCFF73;
+	display: flex;
+	width: 31%;
+	align-items: center;
+}
+
+.descarga1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 5%;
+}
+
+/* media tablet - 859 */
+
+@media screen and (min-width:859px){
+	
+	/* menu */
+	
+	#logoportfolio{
+		width: 170%;
+		max-width: 200%;
+		margin-left: 100%;
+	}
+	
+	#logomenuhamburguesa{
+		width: 18%;
+	}
+	
+	/* hamburguesa */
+	
+	#mobile{
+		width: 24%;
+	}
+
+	#mobile ul li a{
+		font-size: 1.25em;
+	}
+	
+	/* menu pc */
+	
+	#pc{
+		display: none
+	}
+	
+	/* tamanos tipograficos generales*/
+	
+	h1{
+		font-size: 3em;
+	}
+	
+	h2{
+		font-size: 2em;
+		padding-left: 13%;
+	}
+	
+	h3, h4{
+		font-size: 1.5em;
+	}
+	
+	/* foto principal */
+	
+	.fotoperfilmobile img{
+		width: 50%;
+	}
+	
+	/* botones */
+	
+	.massobremi{
+		width: 15%;
+		font-size: 1em;
+		padding: 1% 0%;
+	}
+	
+	.btnavance{
+		width: 22%;
+		font-size: 1em;
+		padding: 1% 0%;
+	}
+	
+	/* imagenes index */
+	
+	.avances{
+		flex-direction: row;
+		flex-wrap: wrap;
+		padding-left: 13%;
+	}
+	
+	/* formulario */
+	
+	.formularioitems{
+		width: 74%;
+	}
+	
+	.formularioitems label{
+		font-size: 1.5em;
+	}
+	
+	.formulario{
+		display: flex;
+		justify-content: center;
+		padding-top: 5%;
+		color: #762FBC;
+		font-family: "Montserrat Alternates";
+	}
+
+	.formularioitemsinput{
+		height: 10%;
+	}
+	
+	.formularioitems textarea{
+		height: 50%;
+		width: 100%;
+	}
+
+	.formulariobutton{
+		width: 10%;
+		font-size: 1em;
+		padding: 1% 0%;
+	}
+	
+	footer ul{
+		padding-left: 45%;
+	}
+	
+	/* dg */
+	
+	.posterdg img{
+		width: 77%;
+	}
+	
+	#textoposterdg{
+		font-size: 2em;
+	}	
+	
+	/* logo dg */
+	
+	.logodg img{
+		width: 77%;
+	}
+	
+	#textologodg{
+		font-size: 2em;
+	}
+	
+	/* postales dg */
+	
+	.postalesarriba{
+		flex-direction: row;
+		flex-wrap: wrap;
+		padding-left: 7%;
+		padding-right: 11%;
+		justify-content: center;
+	}
+	
+	.postalesarriba img{
+		width: 50%;
+		padding-left: 5%;
+	}
+	
+	#textopostalesdg{
+		font-size: 2em;
+	}
+
+	.vinilosarriba{
+		flex-direction: row;
+		flex-wrap: wrap;
+		padding-left: 7%;
+		padding-right: 11%;
+		justify-content: center;
+	}
+	
+	.vinilosarriba img{
+		width: 50%;
+		padding-left: 5%;
+	}
+	
+	#textovinilosdg{
+		font-size: 2em;
+	}
+	
+	/* editorial */
+	
+	.subtituloeditorial{
+		padding-left: 8%;
+	}
+	
+	.titulopostersde{
+		padding-left: 8%;
+	}
+	
+	.postersarriba{
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	
+	.postersarriba img{
+		padding: 2%;
+		width: 45%;
+	}
+	
+	#textopostersde{
+		font-size: 2em;
+	}
+	
+	#imagenafiche{
+		width: 45%;
+	}
+	
+	#textoafichede{
+		font-size: 2em;
+	}
+	
+	.publicacion1{
+		flex-direction: row;
+		justify-content: center;
+	}
+	
+	.publicacion1 img{
+		padding: 2%;
+		width: 55%;
+	}
+	
+	#textopublicacion{
+		font-size: 2em;
+	}
+	
+	/* interactivo */
+	
+	.apparriba{
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	
+	.apparriba img{
+		padding: 2%;
+		width: 45%;
+	}
+	
+	#textoapp{
+		font-size: 2em;
+	}
+	
+	/* pagina contacto */
+	
+	.misredes{
+		padding-left: 13%;
+	}
+	
+	.titulocontacto{
+		padding-left: 13%;
+	}
+	
+	.iconosredes{
+		flex-direction: row;
+		justify-content: center;
+	}
+	
+	.iconosredes li{
+		padding-left: 3%;
+	}
+	
+	/* pagina sobre mi */
+	
+	.imagenesapps{
+		flex-direction: row;
+		flex-wrap: wrap;
+		padding-left: 11%;
+	}
+	
+	#avancefotografia{
+		width: 100%;
+	}
+	
+	#textohobbies{
+		font-size: 1.5em;
+	}
+	
+	.textoingles{
+		font-size: 1.5em;
+	}
+	
+	#textosobremi{
+		font-size: 1.5em;
+	}
+	
+	#textoidioma{
+		font-size: 1.5em;
+	}
+	
+	/* botones descarga */
+	
+	.descargaarchivo {
+		width: 24%;
+		padding: 2%;
+		font-size: 1.5em;
+	}
+	
+	.descargaarchivo2 {
+		width: 26%;
+		padding: 2%;
+		font-size: 1.5em;
+	}
+	
+	/* pagina dibujo */
+	
+	#textodibujo{
+		font-size: 1.5em;
+	}
+	
+	.dibujos{
+		margin-right: 7%;
+	}
+	
+	.dibujos img{
+		max-width: 150%;
+		width: 115%;
+	}
+	
+	/* pagina fotografia */
+
+	.fotos div{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+	
+	.fotos div img{
+		width: 60%;
+		padding: 2%;
+	}
+	
+	.textofotografia{
+		font-size: 1.5em;
+		margin-bottom: 2%;
+}
+	
+	.textoconfirmacion{
+		font-size: 2.5em;
+	}
+	
+	.btnconfirmacion{
+		padding: 1.5%;
+		font-size: 1em;
+	}
+}
+
+@media screen and (min-width:1200px){
+	
+	/* main */
+	
+	main{
+		padding-top: 12%;
+	}
+	
+	/*img{
+		width: 33%;
+	}*/
+	
+	/* menu */
+	
+	#logoportfolio{
+		width: 170%;
+		max-width: 200%;
+		margin-left: 100%;
+	}
+	
+	/* hamburguesa */
+	
+	#logomenuhamburguesa{
+		display: none;
+	}
+	
+	#mobile{
+		display: none;
+	}
+
+	/* menu pc */
+	
+	#pc{
+		width: 50%;
+		display: flex;
+		align-items: flex-end;
+		justify-content: space-between;
+	}
+	
+	#pc ul{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		width: 100%;
+		justify-content: flex-end;
+		align-items: flex-end;
+	}
+	
+	#pc ul li{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		color: #762FBC;
+		font-size: 1.5em;
+		font-family: "Montserrat Alternates";
+		text-align: right;
+		margin-right: 5%;
+		background: white;
+	}
+	
+	#pc ul li a{
+		color: #762FBC;
+	}
+	
+	.infoprincipal{
+		display: none;
+	}
+	
+	.fotoperfilmobile{
+		display: none;
+	}
+	
+	.cajaboton{
+		display: flex;
+	}
+	
+	.cajabotonpc{
+		display: flex;
+		justify-content: center;
+		flex-direction: row;
+		align-items: center;
+	}
+	
+	.infoprincipalpc{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: row;
+		padding: 0%;
+		margin-left: 8%;
+		margin-right: 8%;
+	}
+	
+	.infoprincipalpc img{
+		width: 50%;
+	}
+	
+	.botonmaspc{
+		display: flex;
+	}
+	
+	/* tamanos tipograficos generales */
+	
+	h1{
+		font-size: 3.5em;
+	}
+	
+	h2{
+		font-size: 2.5em;
+		padding-left: 8%;
+	}
+	
+	h3, h4{
+		font-size: 1.5em;
+	}
+	
+	.massobremi{
+		display: none;
+	}
+	
+	.massobremipc{
+		display: flex;
+		color: #FCFF73;
+		font-family: "Montserrat Alternates";
+		background: #762FBC;
+		border-radius: 20%;
+		width: 30%;
+		padding: 1%;
+		font-size: 1.05em;
+		
+	}
+	
+	.botonmaspc{
+		display: flex;
+	}
+	
+	.btnavance{
+	 	width: 30%;
+   		font-size: 1.2em;
+		padding: 1% 0%;
+	}
+	
+	/* imagenes index */
+	
+	.avances{
+		flex-direction: row;
+		flex-wrap: wrap;
+		padding: 0%;
+		justify-content: center;
+		padding-right: 0%;
+	}
+	
+	.avances form div img{
+		width: 100%;
+		padding: 2%;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	/* formulario */
+	
+	.formularioitems{
+		width: 84%;
+	}
+	
+	.formularioitems textarea{
+		width: 100%;
+		height: 65%;
+	}
+	
+	.formularioitems label{
+		font-size: 2em;
+	}
+
+	.formularioitemsinput{
+		height: 20%;
+	}
+
+	.formulariobutton{
+		width: 10%;
+		font-size: 1.5em;
+		padding: 1% 0%;
+		justify-content: center;
+	}
+	
+	footer ul{
+		padding-left: 46%;
+	}
+	
+	/* dg */
+	
+	.tituloposterdg{
+		padding-left: 8%;
+	}
+	
+	.posterdg{
+		display: flex;
+		flex-direction: row;
+		padding-left: 8%;
+	}
+	
+	.posterdg img{
+		width: 33%;
+	}
+	
+	#textoposterdg{
+		display: flex;
+		font-size: 1.5em;
+		align-items: center;
+		margin-bottom: 4%;
+		padding-left: 14%;
+	}	
+	
+	/* logo dg */
+	
+	.titulologodg{
+		padding-left: 8%;
+	}
+	
+	.logodg{
+		display: flex;
+		flex-direction: row;
+		padding-left: 8%;
+	}
+	
+	.logodg img{
+		width: 33%;
+	}
+	
+	#textologodg{
+		font-size: 1.5em;
+		margin-bottom: 4%;
+	}
+	
+	/* postales dg */
+	
+	.titulopostalesdg{
+		padding-left: 8%;
+	}
+	
+	.postalesarriba{
+		flex-direction: row;
+		flex-wrap: wrap;
+		padding-left: 4%;
+		padding-right: 11%;
+		justify-content: center;
+	}
+	
+	.postalesarriba img{
+		width: 33%;
+		padding-left: 5%;
+	}
+	
+	#textopostalesdg{
+		font-size: 1.5em;
+		padding-left: 0%;
+	}
+
+	/* vinilos dg */
+	
+	.titulovinilosdg{
+		padding-left: 8%;
+	}
+	
+	.vinilosarriba{
+		flex-direction: row;
+		flex-wrap: wrap;
+		padding-left: 4%;
+		padding-right: 11%;
+	}
+	
+	.vinilosarriba img{
+		width: 33%;
+		padding-left: 5%;
+	}
+	
+	#textovinilosdg{
+		font-size: 1.5em;
+	}
+	
+	/* editorial */
+	
+	.postersarriba{
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		padding-left: 6%;
+		padding-right: 6%;
+	}
+	
+	.postersarriba img{
+		padding: 2%;
+		width: 33%;
+	}
+	
+	#textopostersde{
+		padding-left: 8%;
+		font-size: 1.5em;
+		margin-bottom: 2%;
+	}
+	
+	.tituloafichede{
+		padding-left: 8%;
+	}
+	
+	#imagenafiche{
+		width: 33%;
+	}
+	
+	#textoafichede{
+		padding-left: 8%;
+		font-size: 1.5em;
+	}
+	
+	.titulopublicacionde{
+		padding-left: 8%;
+	}
+	
+	.publicacion1{
+		flex-direction: row;
+		justify-content: center;
+	}
+	
+	.publicacion1 img{
+		padding: 2%;
+		width: 55%;
+	}
+	
+	#textopublicacion{
+		padding-left: 8%;
+		font-size: 1.5em;
+	}
+	
+	/* interactivo */
+	
+	.tituloappinteraccion{
+		padding-left: 8%;
+	}
+	
+	.apparriba{
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		padding-left: 8%;
+		padding-right: 8%;
+	}
+	
+	.apparriba img{
+		padding: 2%;
+		width: 33%;
+	}
+	
+	#textoapp{
+		font-size: 1.5em;
+		padding-left: 8%;
+		padding-right: 8%;
+	}
+	
+	/* pagina contacto */
+	
+	.misredes{
+		padding-left: 13%;
+	}
+	
+	.titulocontacto{
+		padding-left: 13%;
+	}
+	
+	.iconosredes{
+		flex-direction: row;
+		justify-content: center;
+	}
+	
+	.iconosredes li{
+		padding-left: 3%;
+	}
+	
+	/* pagina sobre mi */
+	
+	.imagenesapps{
+		flex-direction: row;
+		flex-wrap: wrap;
+		padding-left: 11%;
+	}
+	
+	#avancefotografia{
+		width: 100%;
+	}
+	
+	#textohobbies{
+		font-size: 1.5em;
+	}
+	
+	.textoingles{
+		font-size: 1.5em;
+	}
+	
+	#textosobremi{
+		font-size: 1.5em;
+		padding-left: 8%;
+		padding-right: 8%;
+	}
+	
+	#textoidioma{
+		font-size: 1.5em;
+		padding-left: 8%;
+		padding-right: 8%;
+	}
+	
+	.textoingles{
+		font-size: 1.5em;
+		padding-left: 8%;
+		padding-right: 8%;
+	}
+	
+	#textohobbies{
+		font-size: 1.5em;
+		padding-left: 8%;
+		padding-right: 8%;
+	}
+	
+	/* botones descarga */
+	
+	.descargaarchivo {
+		width: 19%;
+		padding: 2%;
+		font-size: 1.5em;
+	}
+	
+	.descargaarchivo2 {
+		width: 20%;
+		padding: 2%;
+		font-size: 1.5em;
+	}
+	
+	/* pagina dibujo */
+	
+	#textodibujo{
+		font-size: 1.5em;
+		padding-left: 8%;
+		padding-right: 8%;
+	}
+	
+	.ilustraciones{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		width: 120%;
+		padding-right: 16%;
+	}
+	
+	.dibujos{
+		margin-right: 7%;
+	}
+	
+	.dibujos div{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+	
+	.dibujos img{
+		max-width: 100%;
+		width: 50%;
+	}
+	
+	/* pagina fotografia */
+
+	.fotos div{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+	
+	.fotos div img{
+		width: 60%;
+		padding: 2%;
+	}
+	
+	.textoconfirmacion{
+		font-size: 2.5em;
+	}
+	
+	.btnconfirmacion{
+		padding: 1.5%;
+		font-size: 1em;
+	}
+	
+	.foto1y2{
+		display: flex;
+		justify-content: flex-start;
+	}
+
+}

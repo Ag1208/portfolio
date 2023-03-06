@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="es">
+	
+<head>
+<meta name="viewport" content= "width=device-width,initial-scale=1"/>
+<meta charset="utf-8">
+<meta name="author" content="Abril Nazarena Gaitán">
+<link rel="stylesheet" href="estilos.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+<title>Portfolio - Abril Gaitán</title>
+</head>
+
+	<body>
+		<header>
+			<a href="index.html"><img id="logoportfolio" src="portfolioimagenes/logoportolio.png" 
+				alt="logo Abril Gaitán"></a>
+
+			<img id="logomenuhamburguesa" src="portfolioimagenes/menuhamburguesa.png" alt="menu">
+
+			<nav id="mobile">
+				<ul>
+					<li><a href="index.html#trabajos">Trabajos</a></li>
+					<li><a href="sobremi.html">Sobre mí</a></li>
+					<li><a href="contacto.html">Contacto</a></li>
+				</ul>
+			</nav>
+		
+			<nav id="pc">
+				<ul>
+					<li><a href="index.html#trabajos">Trabajos</a></li>
+					<li><a href="sobremi.html">Sobre mí</a></li>
+					<li><a href="contacto.html">Contacto</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+		<main>
+			<h1>Dibujo</h1>
+			
+			<h2>Ideas plasmadas</h2>
+			
+			<p id="textodibujo">
+				Desde que tengo uso de razón, dibujar es de mis actividades favoritas, ya que puedo dar vida a cualquier cosa que me imagine. Al principio eran dibujos en lápiz y papel pero luego comencé a usar herramientas digitales y hoy en día en mi tiempo libre me gusta crear diversas figuras. A continuación te comparto algunas de ellas... 
+			</p>
+			
+			<h2>Ilustraciones digitales</h2>
+			
+			<section class="ilustraciones">
+				<div class="dibujos">
+					<div>
+					<!--<h3>"Flower power"</h3>-->
+					<img src="portfolioimagenes/ilustraciondigital1.jpg" alt="Ilustracion 1">
+					</div>
+					
+					<div>
+					<!--<h3>"Lady"</h3>-->
+					<img src="portfolioimagenes/ilustraciondigital2.jpg" alt="Ilustracion 2">
+					</div>
+					
+					<div>
+					<!--<h3>"Tomanza"</h3>-->
+					<img src="portfolioimagenes/ilustraciondigital3.jpg" alt="Ilustracion 3">
+					</div>
+				</div>
+			</section>
+	
+		</main>
+		
+		<footer>
+			<ul>
+				<li><a href="sobremi.html"> <img src="portfolioimagenes/contactoicono.png" alt="usuario"></a>
+				</li>
+
+				<li>
+					<a href="index.html#trabajos"> <img src="portfolioimagenes/carpetaicono.png" alt="carpeta"></a>
+				</li>
+
+				<li>
+					<a href="contacto.html"> <img src="portfolioimagenes/telefonoicono.png" alt="contacto"></a>
+				</li>
+			</ul> 
+		</footer>
+	
+<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+<script>
+	$("#logomenuhamburguesa").click(function(){$("#mobile ul").slideToggle(500);
+	}
+	)
+</script>
+	</body>
+</html>

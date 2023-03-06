@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="es">
+	
+<head>
+<meta name="viewport" content= "width=device-width,initial-scale=1"/>
+<meta charset="utf-8">
+<meta name="author" content="Abril Nazarena Gaitán">
+<link rel="stylesheet" href="estilos.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+<title>Portfolio - Abril Gaitán</title>
+</head>
+	
+<body>
+	<header>
+		<a href="index.html"><img id="logoportfolio" src="portfolioimagenes/logoportolio.png" 
+			alt="logo Abril Gaitán"></a>
+		
+		<img id="logomenuhamburguesa" src="portfolioimagenes/menuhamburguesa.png" alt="menu">
+		
+		<nav id="mobile">
+			<ul>
+				<li><a href="#trabajos">Trabajos</a></li>
+				<li><a href="sobremi.html">Sobre mí</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+		</nav>
+		
+		<nav id="pc">
+			<ul>
+				<li><a href="#trabajos"><strong>Trabajos</strong></a></li>
+				<li><a href="sobremi.html"><strong>Sobre mí</strong></a></li>
+				<li><a href="contacto.html"><strong>Contacto</strong></a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<main>
+		<section class="infoprincipal">
+			<h1>¡Hola! Soy <span style="color: #FCFF73;">Abril</span>, </h1>
+			<h4>Diseñadora gráfica y multimedial jr.</h4>
+		</section>
+		
+		<section class="fotoperfilmobile">
+			<img src="portfolioimagenes/fotoperfil.png" alt="Imagen de Abril Gaitán">		
+		</section>
+		
+		<section class="infoprincipalpc">
+			<img src="portfolioimagenes/fotoperfil.png" alt="Imagen de Abril Gaitán">
+			<div class="textosprincipal">
+				<h1 id="tituloindex">¡Hola! Soy <span style="color: #FCFF73;">Abril</span>, </h1>
+				<h4 id="subtitulo">Diseñadora gráfica y multimedial jr.</h4>
+				<form action="sobremi.html">
+					<div class="cajabotonpc">
+						<button class="massobremipc" type="submit">Más sobre mí</button>
+					</div>
+				</form>
+			</div>	
+		</section>
+		
+		<form action="sobremi.html">
+			<div class="cajaboton">
+				<button class="massobremi" type="submit">Más sobre mí</button>
+			</div>
+		</form>
+		
+		<h2 id="trabajos">Trabajos</h2>
+		
+		<section class="avances">
+			<form action="grafico.html">
+				<div>
+					<h3>Diseño gráfico</h3>
+					<img src="portfolioimagenes/postal4mobile.png" alt="avancedg">
+				</div>
+				
+				<div class="cajaboton">
+					<button class="btnavance" type="submit">Ver más</button>
+				</div>
+			</form>
+			
+			<form action="editorial.html">
+				<div>
+					<h3>Diseño editorial</h3>
+					<img src="portfolioimagenes/poster5.png" alt="avancedg">
+				</div>
+	
+				<div class="cajaboton">
+					<button class="btnavance" type="submit">Ver más</button>
+				</div>
+			</form>
+			
+			<form action="interactivo.html">
+				<div>
+					<h3>Diseño interactivo</h3>
+					<img src="portfolioimagenes/interaccionuno.png" alt="avancedi">
+				</div>
+				
+				<div class="cajaboton">
+					<button class="btnavance" type="submit">Ver más</button>
+				</div>
+			</form>
+		</section>
+		
+		<h2>¡Contactame!</h2>
+		
+		<form class="formulario" action="confirmacion.html">
+			<div class="formularioitems">
+				<label>Nombre</label>
+				<input class="formularioitemsinput" type="text">
+
+				<label>Apellido</label>
+				<input class="formularioitemsinput" type="text">
+
+				<label>Correo</label>
+				<input class="formularioitemsinput" type="text">
+
+				<label>Mensaje</label>
+				<textarea cols="30" rows="10"></textarea>
+				
+				<input class="formulariobutton" type="submit" value="Enviar">
+			</div>
+			
+		</form>
+		
+	</main>
+	
+		
+	<footer>
+		<ul>
+			<li><a href="sobremi.html"> <img src="portfolioimagenes/contactoicono.png" alt="usuario"></a>
+			</li>
+
+			<li>
+				<a href="index.html#trabajos"> <img src="portfolioimagenes/carpetaicono.png" alt="carpeta"></a>
+			</li>
+
+			<li>
+				<a href="contacto.html"> <img src="portfolioimagenes/telefonoicono.png" alt="contacto"></a>
+			</li>
+		</ul> 
+	</footer>
+	
+<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+<script>
+	$("#logomenuhamburguesa").click(function(){$("#mobile ul").slideToggle(500);
+	}
+	)
+</script>
+	
+</body>
+
+</html>

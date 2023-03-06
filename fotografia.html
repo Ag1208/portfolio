@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="es">
+	
+<head>
+<meta name="viewport" 
+content= "width=device-width,initial-scale=1"/>
+<meta charset="utf-8">
+<meta name="author" content="Abril Nazarena Gaitán">
+<link rel="stylesheet" href="estilos.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+<title>Portfolio - Abril Gaitán</title>
+</head>
+	
+	<body>
+		
+		<header>
+			<a href="index.html"><img id="logoportfolio" src="portfolioimagenes/logoportolio.png" 
+				alt="logo Abril Gaitán"></a>
+
+			<img id="logomenuhamburguesa" src="portfolioimagenes/menuhamburguesa.png" alt="menu">
+
+			<nav id="mobile">
+				<ul>
+					<li><a href="index.html#trabajos">Trabajos</a></li>
+					<li><a href="sobremi.html">Sobre mí</a></li>
+					<li><a href="contacto.html">Contacto</a></li>
+				</ul>
+			</nav>
+		
+			<nav id="pc">
+				<ul>
+					<li><a href="index.html#trabajos">Trabajos</a></li>
+					<li><a href="sobremi.html">Sobre mí</a></li>
+					<li><a href="contacto.html">Contacto</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+		<main>
+			<h1>Fotografía</h1>
+			
+			<h2>Capturar momentos</h2>
+			
+			<p class="textofotografia">A continuación te dejo algunas de mis fotografías favoritas, algunas tomadas durante la cuarentena, otras de algún viaje y otras desde la intimidad de mi hogar...</p>
+			
+			<section class="fotografia">
+
+				<div class="fotos">
+					<div class="foto1y2">
+						<img src="portfolioimagenes/fotografia1cuadromujer.jpeg" alt="Foto 1">
+						<img src="portfolioimagenes/fotografia2piano.jpeg" alt="Foto 2">
+					</div>
+					
+					<div>
+						<img src="portfolioimagenes/fotografia3barriles.jpeg" alt="Foto 3">
+						<img src="portfolioimagenes/fotografia4fraserosas.jpeg" alt="Foto 4">
+					</div>
+					
+					<div>
+						<img src="portfolioimagenes/fotografia5paisaje.png" alt="Foto 5">
+						<img src="portfolioimagenes/fotografia6cuadroscama.png" alt="Foto 6">
+					</div>
+					
+					<div>
+						<img src="portfolioimagenes/fotografia7espacio.jpeg" alt="Foto 7">
+						<img src="portfolioimagenes/fotografia8florci.jpeg" alt="Foto 8">
+					</div>
+					
+					<div>
+						<img src="portfolioimagenes/fotografia9floresartificiales.jpeg" alt="Foto 9">
+						<img src="portfolioimagenes/fotografia10bebe.jpeg" alt="Foto 10">
+					</div>
+					
+					<div>
+						<img src="portfolioimagenes/fotografia11familia.jpeg" alt="Foto 11">
+						<img src="portfolioimagenes/fotografia12atriles.jpeg" alt="Foto 12">
+					</div>
+				</div>
+			</section>
+			
+		</main>
+		
+		<footer>
+			<ul>
+				<li><a href="sobremi.html"> <img src="portfolioimagenes/contactoicono.png" alt="usuario"></a>
+				</li>
+				<li>
+					<a href="index.html#trabajos"> <img src="portfolioimagenes/carpetaicono.png" alt="carpeta"></a>
+				</li>
+				<li>
+					<a href="contacto.html"> <img src="portfolioimagenes/telefonoicono.png" alt="contacto"></a>
+				</li>
+			</ul> 
+		</footer>
+<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+<script>
+	$("#logomenuhamburguesa").click(function(){$("#mobile ul").slideToggle(500);
+	}
+	)
+</script>
+	</body>
+</html>

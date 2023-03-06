@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="es">
+	
+<head>
+<meta name="viewport" content= "width=device-width,initial-scale=1"/>
+<meta charset="utf-8">
+<meta name="author" content="Abril Nazarena Gaitán">
+<link rel="stylesheet" href="estilos.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+<title>Portfolio - Abril Gaitán</title>
+</head>
+	
+	<body>
+		
+		<header>
+			<a href="index.html"><img id="logoportfolio" src="portfolioimagenes/logoportolio.png" 
+				alt="logo Abril Gaitán"></a>
+
+			<img id="logomenuhamburguesa" src="portfolioimagenes/menuhamburguesa.png" alt="menu">
+
+			<nav id="mobile">
+			<ul>
+				<li><a href="index.html#trabajos">Trabajos</a></li>
+				<li><a href="sobremi.html">Sobre mí</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+		</nav>
+		
+		<nav id="pc">
+			<ul>
+				<li><a href="index.html#trabajos">Trabajos</a></li>
+				<li><a href="sobremi.html">Sobre mí</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+		</nav>
+		</header>
+		
+		<main>
+		
+			<section class="infodg">
+				<h1>Diseño gráfico</h1>
+			</section>
+			
+			<h2>Mis trabajos</h2>
+			
+			<h3 class="tituloposterdg">Póster</h3>
+			
+			<section class="posterdg">
+				<img src="portfolioimagenes/posterdgmobile.png" alt="Póster">
+				
+				<p id="textoposterdg">Trabajo realizado en Adobe Photoshop con recortes por canal y concepto libre.</p>
+			</section>
+			
+			<h3 class="titulologodg">Logo</h3>
+			
+			<section class="logodg">
+				<img src="portfolioimagenes/logodgmobile.png" alt="Logo">
+				<p id="textologodg">Trabajo realizado en Adobe Illustrator.</p>
+			</section>
+			
+			<h3 class="titulopostalesdg">Postales</h3>
+			
+			<section class="postalesdg">
+					<div class="postalesarriba">
+						<img src="portfolioimagenes/postal1mobile.png" alt="Postal 1">
+						<img src="portfolioimagenes/postal2mobile.png" alt="Postal 2">
+						<img src="portfolioimagenes/postal3mobile.png" alt="Postal 3">
+					<!--</div>
+					<div class="postalesabajo">-->
+						<img src="portfolioimagenes/postal4mobile.png" alt="Postal 4">
+						<img src="portfolioimagenes/postal5mobile.png" alt="Postal 5">
+					</div>
+					<p id="textopostalesdg">Trabajo realizado en Adobe Photoshop a partir de la palabra: red.</p>
+			</section>
+			
+			<h3 class="titulovinilosdg">Vinilos</h3>
+			
+			<section class="vinilosdg">
+				<div class="vinilosarriba">
+					<img src="portfolioimagenes/vinilo1mobile.png" alt="Vinilo tristeza frente">
+					<img src="portfolioimagenes/vinilo3mobile.png" alt="Vinilo furia frente">
+					<img src="portfolioimagenes/vinilo5mobile.png" alt="Vinilo alegría frente y dorso">
+				</div>
+				<p id="textovinilosdg">Trabajo realizado en Adobe Photoshop con concepto de distintas emociones.</p>
+			</section>
+		
+		</main>
+		
+		<footer>
+			<ul>
+				<li><a href="sobremi.html"> <img src="portfolioimagenes/contactoicono.png" alt="usuario"></a>
+				</li>
+				<li>
+					<a href="index.html#trabajos"> <img src="portfolioimagenes/carpetaicono.png" alt="carpeta"></a>
+				</li>
+				<li>
+					<a href="contacto.html"> <img src="portfolioimagenes/telefonoicono.png" alt="contacto"></a>
+				</li>
+			</ul> 
+		</footer>
+		
+		<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+<script>
+	$("#logomenuhamburguesa").click(function(){$("#mobile ul").slideToggle(500);
+	}
+	)
+</script>
+		
+		
+	</body>
+
+</html>

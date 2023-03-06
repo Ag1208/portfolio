@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="es">
+	
+<head>
+<meta name="viewport" content= "width=device-width,initial-scale=1"/>
+<meta charset="utf-8">
+<meta name="author" content="Abril Nazarena Gaitán">
+<link rel="stylesheet" href="estilos.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+<title>Portfolio - Abril Gaitán</title>
+</head>
+	
+	<body>
+		
+		<header>
+			<a href="index.html"><img id="logoportfolio" src="portfolioimagenes/logoportolio.png" 
+				alt="logo Abril Gaitán"></a>
+
+			<img id="logomenuhamburguesa" src="portfolioimagenes/menuhamburguesa.png" alt="menu">
+
+			<nav id="mobile">
+			<ul>
+				<li><a href="index.html#trabajos">Trabajos</a></li>
+				<li><a href="sobremi.html">Sobre mí</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+		</nav>
+		
+		<nav id="pc">
+			<ul>
+				<li><a href="index.html#trabajos">Trabajos</a></li>
+				<li><a href="sobremi.html">Sobre mí</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+		</nav>
+		</header>
+		
+		<main>
+		
+			<section class="infodi">
+				<h1>Diseño interactivo</h1>
+			</section>
+			
+			<h2>Mis trabajos</h2>
+			
+			<h3 class="tituloappinteraccion">Diseño de aplicación</h3>
+			
+			<section class="app">
+				<div class="apparriba">
+					<img src="portfolioimagenes/interaccionuno.png" alt="app1">
+					<img src="portfolioimagenes/interaccion2.png" alt="app2">
+					<img src="portfolioimagenes/interaccion3.png" alt="app3">
+					<img src="portfolioimagenes/interaccion4.png" alt="app4">
+					<img src="portfolioimagenes/interaccion5.png" alt="app5">
+				</div>
+				<p id="textoapp">Diseño de aplicación para celular de una entidad educativa, en este caso el museo de los niños.</p>
+			</section>
+		</main>
+		<footer>
+			<ul>
+				<li><a href="sobremi.html"> <img src="portfolioimagenes/contactoicono.png" alt="usuario"></a>
+				</li>
+				<li>
+					<a href="index.html#trabajos"> <img src="portfolioimagenes/carpetaicono.png" alt="carpeta"></a>
+				</li>
+				<li>
+					<a href="contacto.html"> <img src="portfolioimagenes/telefonoicono.png" alt="contacto"></a>
+				</li>
+			</ul> 
+		</footer>
+		
+		<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+<script>
+	$("#logomenuhamburguesa").click(function(){$("#mobile ul").slideToggle(500);
+	}
+	)
+</script>
+		
+		
+	</body>
+	
+</html>

@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="es">
+	
+<head>
+<meta name="viewport" content= "width=device-width,initial-scale=1"/>
+<meta charset="utf-8">
+<meta name="author" content="Abril Nazarena Gaitán">
+<link rel="stylesheet" href="estilos.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+<title>Portfolio - Abril Gaitán</title>
+</head>
+	<body>
+		<header>
+			<a href="index.html"><img id="logoportfolio" src="portfolioimagenes/logoportolio.png" 
+				alt="logo Abril Gaitán"></a>
+
+			<img id="logomenuhamburguesa" src="portfolioimagenes/menuhamburguesa.png" alt="menu2">
+
+			<nav id="mobile">
+				<ul>
+					<li><a href="index.html#trabajos">Trabajos</a></li>
+					<li><a href="sobremi.html">Sobre mí</a></li>
+					<li><a href="contacto.html">Contacto</a></li>
+				</ul>
+			</nav>
+		
+			<nav id="pc">
+				<ul>
+					<li><a href="index.html#trabajos">Trabajos</a></li>
+					<li><a href="sobremi.html">Sobre mí</a></li>
+					<li><a href="contacto.html">Contacto</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<h1>Sobre mí</h1>
+			
+			<p id="textosobremi">
+				Mi nombre es Abril Nazarena Gaitán. Tengo 20 años, y soy de Caballito, Argentina. Desde que tengo uso de razón, adoro las actividades prácticas, manuales, y creativas. A lo largo de mi vida, tomé muchas clases relacionadas a lo artístico. Me considero una persona paciente y responsable.
+			</p>
+			
+			<div class="descarga1">
+				<a class="descargaarchivo" href="portfolioimagenes/curriculumgaitan.pdf" download>
+					Descargar CV
+				</a>
+			</div>
+			<h2>Idiomas</h2>
+			
+			<p id="textoidioma">
+				Ingles: avanzado
+			</p>
+			
+			<p class="textoingles">
+				Desde muy chica perfecciono mi nivel de inglés tomando clases particulares, más allá de tenerlo como materia en el colegio. Así lo hice durante once años, y luego rendí el examen First Certificate (FCE), para concluir esa intensiva etapa de estudio.
+			</p>
+			
+			<div class="descarga1">
+				<a class="descargaarchivo2" href="portfolioimagenes/certificadofirst.pdf" download>
+				Descargar FCE
+				</a>
+			</div>
+			
+			
+			
+			<h2>Habilidades</h2>
+			
+			<section class="imagenesapps">
+				<div class="iconos">
+					<img src="portfolioimagenes/iconodephotoshop.png" alt="Photoshop">
+					<div>
+						<hr class="habilidades" style="width: 75%;">
+						<p class="habilidadestexto"><strong>Adobe Photoshop</strong></p>
+					</div>
+				</div>
+				<div class="iconos">
+					<img src="portfolioimagenes/iconodeillustrator.png" alt="Illustrator">
+					<div>
+						<hr class="habilidades" style="width: 75%;">
+						<p class="habilidadestexto"><strong>Adobe Illustrator</strong></p>
+					</div>
+				</div>
+				<div class="iconos">
+					<img src="portfolioimagenes/iconodedreamweaver.png" alt="Dreamweaver">
+					<div>
+						<hr class="habilidades" style="width: 50%;">
+						<p class="habilidadestexto"><strong>Adobe Dreamweaver</strong></p>
+					</div>
+				</div>
+				<div class="iconos">
+					<img src="portfolioimagenes/iconodeindesign.png" alt="InDesign">
+					<div>
+						<hr class="habilidades" style="width: 30%;">
+						<p class="habilidadestexto"><strong>Adobe Indesign</strong></p>
+					</div>
+				</div>
+			</section>
+			
+			<h2>Hobbies</h2>
+			
+				<p id="textohobbies">
+					Me encanta pasar mi tiempo libre haciendo distintas actividades, acá abajo se encuentran mis favoritas...
+				</p>
+			
+			<section class="amboshobbies">
+				<div class="elementoshobbies">
+					<h3>Dibujo</h3>
+					<img src="portfolioimagenes/ilustraciondigital1.jpg" alt="Dibujo">
+					
+					<form action="dibujo.html">
+						<div class="cajaboton">
+							<button class="btnavance" type="submit">Ver más</button>
+						</div>
+					</form>
+
+					<h3>Fotografia</h3>
+					<img id="avancefotografia" src="portfolioimagenes/fotografia5paisaje.png" alt="Fotografia">
+					
+					<form action="fotografia.html">
+						<div class="cajaboton">
+							<button class="btnavance" type="submit">Ver más</button>
+						</div>
+					</form>
+				</div>
+			</section>
+			
+			
+			
+		</main>
+		<footer>
+			<ul>
+				<li><a href="sobremi.html"> <img src="portfolioimagenes/contactoicono.png" alt="usuario"></a>
+				</li>
+
+				<li>
+					<a href="index.html#trabajos"> <img src="portfolioimagenes/carpetaicono.png" alt="carpeta"></a>
+				</li>
+
+				<li>
+					<a href="contacto.html"> <img src="portfolioimagenes/telefonoicono.png" alt="contacto"></a>
+				</li>
+			</ul> 
+		</footer>
+		
+<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+<script>
+	$("#logomenuhamburguesa").click(function(){$("#mobile ul").slideToggle(500);
+	}
+	)
+</script>
+	</body>
+</html>

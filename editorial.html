@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="es">
+	
+<head>
+<meta name="viewport" content= "width=device-width,initial-scale=1"/>
+<meta charset="utf-8">
+<meta name="author" content="Abril Nazarena Gaitán">
+<link rel="stylesheet" href="estilos.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+<title>Portfolio - Abril Gaitán</title>
+</head>
+	
+	<body>
+		
+		<header>
+			<a href="index.html"><img id="logoportfolio" src="portfolioimagenes/logoportolio.png" 
+				alt="logo Abril Gaitán"></a>
+
+			<img id="logomenuhamburguesa" src="portfolioimagenes/menuhamburguesa.png" alt="menu">
+
+			<nav id="mobile">
+			<ul>
+				<li><a href="index.html#trabajos">Trabajos</a></li>
+				<li><a href="sobremi.html">Sobre mí</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+		</nav>
+		
+		<nav id="pc">
+			<ul>
+				<li><a href="index.html#trabajos">Trabajos</a></li>
+				<li><a href="sobremi.html">Sobre mí</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+		</nav>
+		</header>
+		
+		<main>
+		
+			<section class="infode">
+				<h1>Diseño editorial</h1>
+			</section>
+			
+			<h2 class="subtituloeditorial"> Trabajos </h2>
+			
+			<h3 class="titulopostersde">Pósters</h3>
+			
+			<section class="posters">
+				<div class="postersarriba">
+					<img src="portfolioimagenes/poster1.png" alt="Frente 1">
+					<img src="portfolioimagenes/poster2.png" alt="Dorso 1">
+					<img src="portfolioimagenes/poster3.png" alt="Frente 2">
+				<!--</div>
+				<div class="postersabajo">-->
+					<img src="portfolioimagenes/poster4.png" alt="Dorso 2">
+					<img src="portfolioimagenes/poster5.png" alt="Frente 3">	
+					<img src="portfolioimagenes/poster6.png" alt="Dorso 3">
+				</div>
+			<p id="textopostersde">Trabajo realizado en Adobe Photoshop sobre el lado oscuro de Mahatma Gandhi.</p>
+			</section>
+			
+			<h3 class="tituloafichede">Afiche</h3>
+			
+			<section class="afiche">
+				
+				<img id="imagenafiche" src="portfolioimagenes/afiche.png" alt="Afiche Frase">
+				<p id="textoafichede">Trabajo realizado en Adobe Photoshop con concepto en una frase de carácter fuerte.</p>
+			</section>
+			
+			<h3 class="titulopublicacionde">Publicación</h3>
+			
+			<section class="publicacion">
+				<div class="publicacion1">
+					<img src="portfolioimagenes/publicacion1.png" alt="Frente 1">
+					<img src="portfolioimagenes/publicacion2.png" alt="Frente 2">
+				</div>
+			<p id="textopublicacion">Trabajo realizado en Adobe Indesign con temática en los sueños, lo científico y lo onírico.</p>
+			</section>
+			
+		</main>
+		
+		
+		<footer>
+			<ul>
+				<li><a href="sobremi.html"> <img src="portfolioimagenes/contactoicono.png" alt="usuario"></a>
+				</li>
+				<li>
+					<a href="index.html#trabajos"> <img src="portfolioimagenes/carpetaicono.png" alt="carpeta"></a>
+				</li>
+				<li>
+					<a href="contacto.html"> <img src="portfolioimagenes/telefonoicono.png" alt="contacto"></a>
+				</li>
+			</ul> 
+		</footer>
+		
+		<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+<script>
+	$("#logomenuhamburguesa").click(function(){$("#mobile ul").slideToggle(500);
+	}
+	)
+</script>
+		
+	</body>
+	
+</html>
